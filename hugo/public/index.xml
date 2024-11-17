@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rick Pianka</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Rick Pianka</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Feb 2022 16:04:06 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Photography</title>
+      <link>http://localhost:1313/projects/photography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/photography/</guid>
+      <description>&lt;h2 id=&#34;sometimes-i-take-pictures&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#sometimes-i-take-pictures&#34;&gt;Sometimes I take pictures&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This project is about the pictures I take. Sometimes, they are pictures of cats.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>http://localhost:1313/projects/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/design/</guid>
+      <description>&lt;p&gt;This theme was designed by &lt;a href=&#34;https://victoria.dev&#34;&gt;Victoria Drake&lt;/a&gt;. Go on, explore! 💪&lt;/p&gt;&#xA;&lt;p&gt;If you want to use it for your website, check out the section at the bottom of the main page. 👍&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>http://localhost:1313/projects/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/writing/</guid>
+      <description>&lt;p&gt;Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.&lt;/p&gt;&#xA;&lt;p&gt;To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop. Latte instant black extra aroma, instant, extra robusta variety skinny shop aged cup ristretto foam cortado. Bar galão skinny saucer est affogato sugar caffeine chicory sugar coffee, seasonal barista french press acerbic in chicory robust.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Support for Multiple Authors</title>
+      <link>http://localhost:1313/blog/multi-author/</link>
+      <pubDate>Mon, 21 Feb 2022 16:04:06 -0500</pubDate>
+      <guid>http://localhost:1313/blog/multi-author/</guid>
+      <description>&lt;p&gt;Using Introduction, your site can feature multiple authors. Each post displays a byline &amp;ndash; the name of a post&amp;rsquo;s author &amp;ndash; if the &lt;code&gt;author&lt;/code&gt; field is set in the post front matter. For example, here&amp;rsquo;s the front matter for this post:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Support for Multiple Authors&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;date&lt;/span&gt;: 2022-02-20T02:04:06&lt;span style=&#34;color:#2aa198&#34;&gt;-05&lt;/span&gt;:&lt;span style=&#34;color:#2aa198&#34;&gt;00&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;tags&lt;/span&gt;: [&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;features&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;blog&amp;#34;&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;series&lt;/span&gt;: [&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;quickstart&amp;#34;&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;author&lt;/span&gt;: [&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Hugo Contributors&amp;#34;&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can list one or more authors. For example, here&amp;rsquo;s a byline with two credits:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post with Images Example</title>
+      <link>http://localhost:1313/blog/coffee-ipsum/</link>
+      <pubDate>Sun, 20 Feb 2022 12:04:16 -0500</pubDate>
+      <guid>http://localhost:1313/blog/coffee-ipsum/</guid>
+      <description>&lt;p&gt;Images can be added to posts using Markdown syntax:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![&lt;span style=&#34;color:#268bd2&#34;&gt;Sample image&lt;/span&gt;](workday.jpg)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Which looks like this:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;Sample image&#34; src=&#34;http://localhost:1313/blog/coffee-ipsum/workday.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can also use Hugo&amp;rsquo;s built-in &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#figure&#34;&gt;figure shortcode&lt;/a&gt;. This lets you add a caption, and looks like this:&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/coffee-ipsum/workday.jpg&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Black and white work day photo.&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Posts with images are great at capturing attention and showcasing your work. Why not try it today?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>**Start Here:** Configuration and Content</title>
+      <link>http://localhost:1313/blog/configuration/</link>
+      <pubDate>Sat, 25 Jul 2020 02:04:06 -0500</pubDate>
+      <guid>http://localhost:1313/blog/configuration/</guid>
+      <description>&lt;p&gt;Here are some helpful tips for setting up this theme.&lt;/p&gt;&#xA;&#xA;&lt;h2 id=&#34;configuration&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#configuration&#34;&gt;Configuration&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Most of what you&amp;rsquo;ll want to configure is demonstrated in the exampleSite &lt;code&gt;config.toml&lt;/code&gt;. This is &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;Hugo&amp;rsquo;s configuration file&lt;/a&gt;. You can copy the &lt;code&gt;config.toml&lt;/code&gt; in the &lt;code&gt;exampleSite/&lt;/code&gt; to your site root get started.&lt;/p&gt;&#xA;&lt;details&gt;&lt;summary&gt;Here are all the options included in the (live!) configuration file for this example site!&lt;/summary&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/details&gt;&#xA;&lt;p&gt;Below are some specific things you might like to configure right away.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Long Form Writing and Quotes</title>
+      <link>http://localhost:1313/blog/long-form-post/</link>
+      <pubDate>Thu, 30 May 2019 20:18:53 -0500</pubDate>
+      <guid>http://localhost:1313/blog/long-form-post/</guid>
+      <description>&lt;p&gt;Prolific writes rejoice! Introduction beautifully renders long pages of writing and blocks of quoted text. Let the ipsum show you how.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus eget nunc scelerisque viverra. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Pharetra magna ac placerat vestibulum lectus mauris. Eget lorem dolor sed viverra ipsum.&lt;/p&gt;&#xA;&#xA;&lt;h2 id=&#34;elementum-nisi&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#elementum-nisi&#34;&gt;Elementum Nisi&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Quis eleifend quam adipiscing. Aliquet nec ullamcorper sit amet risus. Auctor neque vitae tempus quam pellentesque. Tincidunt lobortis feugiat vivamus at augue. Leo vel orci porta non pulvinar neque laoreet. Non enim praesent elementum facilisis leo vel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown Support</title>
+      <link>http://localhost:1313/blog/startup-ipsum/</link>
+      <pubDate>Mon, 06 Nov 2017 12:04:06 -0500</pubDate>
+      <guid>http://localhost:1313/blog/startup-ipsum/</guid>
+      <description>&lt;p&gt;Introduction supports code blocks and syntax highlighting:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ complicated techie code git bash ubuntu&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;gt;&amp;gt;&amp;gt; &lt;span style=&#34;color:#719e07&#34;&gt;return&lt;/span&gt; value init foo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can easily create tables using Markdown, with rows that support readability:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;this&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;is&lt;/th&gt;&#xA;          &lt;th&gt;a&lt;/th&gt;&#xA;          &lt;th&gt;table&lt;/th&gt;&#xA;          &lt;th&gt;!&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;this&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;is&lt;/td&gt;&#xA;          &lt;td&gt;the&lt;/td&gt;&#xA;          &lt;td&gt;1st&lt;/td&gt;&#xA;          &lt;td&gt;row&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;this&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;is&lt;/td&gt;&#xA;          &lt;td&gt;the&lt;/td&gt;&#xA;          &lt;td&gt;2nd&lt;/td&gt;&#xA;          &lt;td&gt;row&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;this&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;is&lt;/td&gt;&#xA;          &lt;td&gt;the&lt;/td&gt;&#xA;          &lt;td&gt;3rd&lt;/td&gt;&#xA;          &lt;td&gt;row&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;edgy&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;jo&lt;/td&gt;&#xA;          &lt;td&gt;ke&lt;/td&gt;&#xA;          &lt;td&gt;lands&lt;/td&gt;&#xA;          &lt;td&gt;here&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;this&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;is&lt;/td&gt;&#xA;          &lt;td&gt;the&lt;/td&gt;&#xA;          &lt;td&gt;5th&lt;/td&gt;&#xA;          &lt;td&gt;row&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;this&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;is&lt;/td&gt;&#xA;          &lt;td&gt;the&lt;/td&gt;&#xA;          &lt;td&gt;6th&lt;/td&gt;&#xA;          &lt;td&gt;row&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Unordered lists render with high readabiltiy as well!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Undated post</title>
+      <link>http://localhost:1313/blog/no-date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/no-date/</guid>
+      <description>&lt;p&gt;I was born yesterday, tomorrow.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
