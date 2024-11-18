@@ -2,64 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projects/photography/</loc>
+    <loc>http://pianka.io/projects/photography/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/design/</loc>
+    <loc>http://pianka.io/projects/design/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/writing/</loc>
+    <loc>http://pianka.io/projects/writing/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://pianka.io/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://pianka.io/blog/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>http://pianka.io/tags/blog/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/features/</loc>
+    <loc>http://pianka.io/tags/features/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/quickstart/</loc>
+    <loc>http://pianka.io/series/quickstart/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://pianka.io/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://pianka.io/series/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/multi-author/</loc>
+    <loc>http://pianka.io/blog/multi-author/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://pianka.io/tags/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/example-posts/</loc>
+    <loc>http://pianka.io/series/example-posts/</loc>
     <lastmod>2022-02-20T12:04:16-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/images/</loc>
+    <loc>http://pianka.io/tags/images/</loc>
     <lastmod>2022-02-20T12:04:16-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/coffee-ipsum/</loc>
+    <loc>http://pianka.io/blog/coffee-ipsum/</loc>
     <lastmod>2022-02-20T12:04:16-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/configuration/</loc>
+    <loc>http://pianka.io/blog/configuration/</loc>
     <lastmod>2020-07-25T02:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/code/</loc>
+    <loc>http://pianka.io/tags/code/</loc>
     <lastmod>2020-07-25T02:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/long-form-post/</loc>
+    <loc>http://pianka.io/blog/long-form-post/</loc>
     <lastmod>2019-05-30T20:18:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>http://pianka.io/tags/markdown/</loc>
     <lastmod>2017-11-06T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/startup-ipsum/</loc>
+    <loc>http://pianka.io/blog/startup-ipsum/</loc>
     <lastmod>2017-11-06T12:04:06-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/no-date/</loc>
+    <loc>http://pianka.io/blog/no-date/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/words/</loc>
+    <loc>http://pianka.io/tags/words/</loc>
   </url>
 </urlset>
