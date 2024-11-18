@@ -12,11 +12,11 @@ data "aws_iam_policy_document" "cloudfront_policy" {
     sid = "1"
     principals {
       type        = "AWS"
-      identifiers = [aws_cloudfront_origin_access_identity.origin_access_identity.iam_arn]
+      identifiers = ["*"]
     }
 
     actions = [
-      "s3:GetObject",
+      "s3:GetObject"
     ]
 
     resources = [

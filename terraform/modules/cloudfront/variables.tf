@@ -13,3 +13,7 @@ variable "bucket_regional_domain_name" {
 variable "certificate_arn" {
   type  = string
 }
+
+variable "website_endpoint" {
+  type  = string
+}

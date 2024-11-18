@@ -21,6 +21,7 @@ module "distribution" {
   bucket_id                   = module.bucket.bucket_id
   bucket_arn                  = module.bucket.bucket_arn
   bucket_regional_domain_name = module.bucket.bucket_regional_domain_name
+  website_endpoint            = module.bucket.website_endpoint
   certificate_arn             = module.tls.certificate_arn
 }
 

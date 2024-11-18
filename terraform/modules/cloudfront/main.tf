@@ -1,9 +1,13 @@
 resource "aws_cloudfront_distribution" "distribution" {
   origin {
-    domain_name              = var.bucket_regional_domain_name
-    origin_id                = local.origin_id
-    s3_origin_config {
-      origin_access_identity = aws_cloudfront_origin_access_identity.origin_access_identity.cloudfront_access_identity_path
+    domain_name              = var.website_endpoint
+    origin_id                = var.bucket_regional_domain_name
+#    origin_access_control_id = aws_cloudfront_origin_access_identity.origin_access_identity.id
+    custom_origin_config {
+      http_port              = "80"
+      https_port             = "443"
+      origin_protocol_policy = "http-only"
+      origin_ssl_protocols   = ["TLSv1", "TLSv1.1", "TLSv1.2"]
     }
   }
 
@@ -16,7 +20,7 @@ resource "aws_cloudfront_distribution" "distribution" {
   default_cache_behavior {
     allowed_methods  = ["DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT"]
     cached_methods   = ["GET", "HEAD"]
-    target_origin_id = local.origin_id
+    target_origin_id = var.bucket_regional_domain_name
 
     forwarded_values {
       query_string = false
