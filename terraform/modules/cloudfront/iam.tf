@@ -16,7 +16,7 @@ data "aws_iam_policy_document" "cloudfront_policy" {
     }
 
     actions = [
-      "s3:GetObject"
+      "s3:GetObject",
     ]
 
     resources = [

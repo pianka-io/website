@@ -9,3 +9,7 @@ variable "bucket_arn" {
 variable "bucket_regional_domain_name" {
   type  = string
 }
+
+variable "certificate_arn" {
+  type  = string
+}
