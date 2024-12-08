@@ -10431,7 +10431,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../fonts/fontawesome-free/webfonts//fa-brands-400.woff2") format("woff2"), url("../fonts/fontawesome-free/webfonts//fa-brands-400.ttf") format("truetype"); }
+  src: url("../fonts/fontawesome-free/webfonts/fa-brands-400.woff2") format("woff2"), url("../fonts/fontawesome-free/webfonts/fa-brands-400.ttf") format("truetype"); }
 
 .fab,
 .fa-brands {
@@ -11954,7 +11954,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("../fonts/fontawesome-free/webfonts//fa-solid-900.woff2") format("woff2"), url("../fonts/fontawesome-free/webfonts//fa-solid-900.ttf") format("truetype"); }
+  src: url("../fonts/fontawesome-free/webfonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fontawesome-free/webfonts/fa-solid-900.ttf") format("truetype"); }
 
 .fas,
 .fa-solid {
@@ -13044,7 +13044,7 @@ html.modal-open {
   .fade-in.two {
     animation-delay: 1.4s; }
   .fade-in.three {
-    animation-delay: 1.8s; }
+    animation-delay: 2.3s; }
 
 a {
   color: #0086d4; }
@@ -13068,7 +13068,6 @@ ul {
 
 img {
   border-radius: 5px;
-  border: 1px solid #dbdbdb;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); }
 
 hr {
@@ -21546,7 +21545,7 @@ readers do not read off random characters that represent icons */
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url("../fonts/fontawesome-free/webfonts//fa-brands-400.woff2") format("woff2"), url("../fonts/fontawesome-free/webfonts//fa-brands-400.ttf") format("truetype"); }
+    src: url("../fonts/fontawesome-free/webfonts/fa-brands-400.woff2") format("woff2"), url("../fonts/fontawesome-free/webfonts/fa-brands-400.ttf") format("truetype"); }
   .fab,
   .fa-brands {
     font-weight: 400; }
@@ -22565,7 +22564,7 @@ readers do not read off random characters that represent icons */
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url("../fonts/fontawesome-free/webfonts//fa-solid-900.woff2") format("woff2"), url("../fonts/fontawesome-free/webfonts//fa-solid-900.ttf") format("truetype"); }
+    src: url("../fonts/fontawesome-free/webfonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fontawesome-free/webfonts/fa-solid-900.ttf") format("truetype"); }
   .fas,
   .fa-solid {
     font-weight: 900; }
@@ -23321,7 +23320,7 @@ readers do not read off random characters that represent icons */
     .fade-in.two {
       animation-delay: 1.4s; }
     .fade-in.three {
-      animation-delay: 1.8s; }
+      animation-delay: 2.3s; }
   a {
     color: #0086d4; }
     a:hover {
@@ -23339,7 +23338,6 @@ readers do not read off random characters that represent icons */
     padding: 0; }
   img {
     border-radius: 5px;
-    border: 1px solid #efefef;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); }
   hr {
     background-color: #efefef;

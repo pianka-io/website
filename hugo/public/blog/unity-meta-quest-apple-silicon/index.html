@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        
+        
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Website Description">
+<title>
+Unity Meta Quest on Apple Silicon - Rick Pianka
+</title>
+
+
+
+        
+        <meta property="og:title" content="Unity &#43; Meta Quest on Apple Silicon - Rick Pianka" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Website Description"/>
+<meta property="og:url" content="http://localhost:1313/blog/unity-meta-quest-apple-silicon/"/>
+<meta property="og:site_name" content="Rick Pianka"/>
+
+
+
+<meta property="og:image" content="http://localhost:1313/blog/unity-meta-quest-apple-silicon/android-build-support.png"/>
+
+<meta property="og:image" content="http://localhost:1313/blog/unity-meta-quest-apple-silicon/hand-skeleton.png"/>
+
+<meta property="og:image" content="http://localhost:1313/blog/unity-meta-quest-apple-silicon/install-unity-editor.png"/>
+
+<meta property="og:image" content="http://localhost:1313/blog/unity-meta-quest-apple-silicon/openxr-platform-tab.png"/>
+
+<meta property="og:image" content="http://localhost:1313/blog/unity-meta-quest-apple-silicon/openxr-plugin.png"/>
+
+
+
+        
+<link rel="shortcut icon" href="/img/fav.ico">
+
+
+        
+
+
+
+
+<link rel="stylesheet" href="/css/main.css" media="screen">
+
+
+
+
+
+        
+        
+        
+        
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero  fade-in one ">
+                
+
+<h1 class="bold-title is-1">Blog</h1>
+
+
+            </div>
+            
+            <div class="section  fade-in two ">
+                
+
+<div class="container">
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="/">main</a>
+            
+
+            
+            
+
+            
+                
+            
+
+            
+                
+            
+
+            
+            
+            
+            
+            
+                
+                
+                
+                
+                  <a class="navbar-item" href="http://localhost:1313/projects/">
+                  
+                  
+                  Projects
+                  
+                  
+                  </a>
+                
+                
+            
+            
+            
+            
+            
+                
+                
+                
+                
+                  <a class="navbar-item" href="http://localhost:1313/blog/">
+                  
+                  Back to Blog
+                  
+                  </a>
+                
+                
+            
+            
+            
+            
+
+            
+            
+            <a class="navbar-item" href="/#contact">Contact</a>
+            
+            
+
+            
+            
+            
+
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+
+
+
+
+                
+<div class="container">
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="http://localhost:1313/blog/unity-meta-quest-apple-silicon/">Unity + Meta Quest on Apple Silicon</a>
+    </h2>
+    
+    <div class="post-data">
+        Dec 8, 2024
+        
+         | 
+        4 minutes read
+        
+    </div>
+    
+    <div class="blog-share">
+        Share this:
+        
+        <a class="twitter-share-button"
+            href="https://twitter.com/intent/tweet?text=Unity%20%2b%20Meta%20Quest%20on%20Apple%20Silicon%20http%3a%2f%2flocalhost%3a1313%2fblog%2funity-meta-quest-apple-silicon%2f"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fab fa-twitter"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+        
+        
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblog%2funity-meta-quest-apple-silicon%2f"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <i class="fab fa-facebook-f"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+        
+        
+        <a class="icon-pinterest"
+            href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fblog%2funity-meta-quest-apple-silicon%2f&amp;description=Unity%20%2b%20Meta%20Quest%20on%20Apple%20Silicon"
+            onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+            <i class="fab fa-pinterest-p"></i>
+            <span class="hidden">Pinterest</span>
+        </a>
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <p>
+        Tags:
+        
+        <a href="/tags/unity">
+            unity</a>,
+        
+        <a href="/tags/meta">
+            meta</a>,
+        
+        <a href="/tags/quest">
+            quest</a>,
+        
+        <a href="/tags/apple">
+            apple</a>
+        
+    </p>
+    
+    
+    
+    
+</div>
+
+<div class="container markdown top-pad">
+    <p>If you&rsquo;re looking to develop <a href="https://unity.com/">Unity</a> projects for <a href="https://www.meta.com/quest/">Meta Quest</a> devices
+using macOS with an M-series chip, it recently got a little easier.  This is a step-by-step guide to setting up a fresh
+environment with Unity, the <a href="https://developers.meta.com/horizon/documentation/unity/xrsim-intro/">Meta XR Simulator</a>,
+your Meta Quest device, and an Xbox Wireless Controller on Apple Silicon.  Before we begin, it&rsquo;s important to note that
+Meta&rsquo;s <a href="https://developers.meta.com/horizon/documentation/unity/unity-link">Unity Link</a> tool is still not supported on
+macOS.</p>
+<p>We&rsquo;ll first install the Meta XR Simulator and its dependencies, then configure it in a new Unity 6 project, and map an
+Xbox controller to its input.  Then we&rsquo;ll hook Unity up to our Meta Quest device as a build and run target, and map its
+controls to the simulator as well.</p>
+<p><a href="https://brew.sh/">Install Homebrew</a> if you don&rsquo;t already have it.</p>
+
+<h3 id="meta-xr-simulator-setup" class="anchor-link"><a href="#meta-xr-simulator-setup">Meta XR Simulator Setup</a></h3>
+<p>The simulator relies on the <a href="https://www.lunarg.com/vulkan-sdk/">Vulkan SDK</a>.  Download it
+<a href="https://vulkan.lunarg.com/doc/sdk/latest/mac/getting_started.html">from here</a>.  Unzip it and run the installer app
+<code>InstallVulkan.app</code>. <strong><span style="color:orange">The options you select during installation are important!</span></strong></p>
+<p>Press <strong>Next</strong> on the welcome screen of the installer.  Press <strong>Next</strong> again to use the default installation location
+(or select a custom one if you&rsquo;d like).  On the Components screen, make sure that <strong>System Global Installation</strong> is
+selected:</p>
+<p><img alt="Vulkan SDK Installer" src="/blog/unity-meta-quest-apple-silicon/vulkan-installer.png" title="Vulkan SDK Installer"></p>
+<p>Press <strong>Next</strong> and continue the rest of the installation as normal.</p>
+<p>Once that&rsquo;s complete, install the simulator itself in terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew tap Oculus-VR/tap
+</span></span><span style="display:flex;"><span>brew install meta-xr-simulator
+</span></span></code></pre></div><p>Now we need to run the post installation script.  First find the version of the simulator you just installed:</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ls -la /opt/homebrew/Cellar/meta-xr-simulator/
+</span></span></code></pre></div><p>Then use it by replacing <code>__VERSION__</code> when running the script:</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo /opt/homebrew/Cellar/meta-xr-simulator/__VERSION__/post_installation_macos.sh
+</span></span></code></pre></div><p>At this point, the simulator should be fully installed and configured.</p>
+
+<h3 id="unity-setup" class="anchor-link"><a href="#unity-setup">Unity Setup</a></h3>
+<p>Grab the Unity Hub if you don&rsquo;t already have it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew update
+</span></span><span style="display:flex;"><span>brew install --cask unity-hub
+</span></span></code></pre></div><p>Open Unity Hub and go to <strong>Installs</strong> and then <strong>Install Editor</strong>.  Select <strong>Install</strong> next to the latest version at or
+above <code>6000.0.30f1</code>:</p>
+<p><img alt="Install Unity Editor" src="/blog/unity-meta-quest-apple-silicon/install-unity-editor.png" title="Install Unity Editor"></p>
+<p>Be sure to include the <strong>Android Build Support</strong>,
+<strong><span style="color:orange">this is also important!</span></strong></p>
+<p><img alt="Android Build Support" src="/blog/unity-meta-quest-apple-silicon/android-build-support.png" title="Android Build Support"></p>
+<p>When that installation is complete, go back to <strong>Projects</strong> in Unity Hub, and make a new 3D project.  Meta recommends
+using the <strong>Built-In Render Pipeline</strong>, though I&rsquo;ve got mine working with the <strong>Universal Render Pipeline</strong>.</p>
+<p>Choose your location, name, and Unity services as desired and click <strong>Create project</strong>.</p>
+
+<h3 id="project-setup" class="anchor-link"><a href="#project-setup">Project Setup</a></h3>
+<p>With your Unity project open, go to <strong>Window</strong> → <strong>Package Manager</strong> → <strong>Unity Registry</strong> and search for <code>OpenXR Plugin</code>
+and install it:</p>
+<p><img alt="OpenXR Plugin" src="/blog/unity-meta-quest-apple-silicon/openxr-plugin.png" title="OpenXR Plugin"></p>
+<p>Close any windows that pop up, we&rsquo;ll come back to them. Next we need to add some assets.  Because our simulator must be
+installed with Homebrew, <span style="color: orange">we cannot use the
+<a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-all-in-one-sdk-269657"><span style="color: orange">Meta XR All-in-One SDK</span></a>!</span></p>
+<p>Instead, we will install the individual SDKs that we need:</p>
+<ul>
+<li><a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-core-sdk-269169">Meta XR Core SDK</a></li>
+<li><a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-audio-sdk-264557">Meta XR Audio SDK</a></li>
+<li><a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-haptics-sdk-272446">Meta XR Haptics SDK</a></li>
+<li><a href="https://assetstore.unity.com/packages/tools/integration/meta-mr-utility-kit-272450">Meta MR Utility Kit</a></li>
+<li><a href="https://assetstore.unity.com/packages/p/meta-xr-platform-sdk-262366">Meta XR Platform SDK</a></li>
+<li><a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-interaction-sdk-265014">Meta XR Interaction SDK</a></li>
+<li><a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-interaction-sdk-essentials-264559">Meta XR Interaction SDK Essentials</a></li>
+</ul>
+<p>Add each to your assets in the Unity Asset Store using the links above, and <strong>Install</strong> each of them in the <strong>Package
+Manager</strong> in Unity:</p>
+<p><img alt="Package Manager Assets" src="/blog/unity-meta-quest-apple-silicon/package-manager-assets.png" title="Package Manager Assets"></p>
+<p>The latest available version should be at or above <code>71.0.0</code> and no longer requires experimental packages.  It will
+prompt you to <strong>Enable Meta XR Feature Set</strong>, so select <strong>Enable</strong> and then <strong>Restart Editor</strong>.  When it&rsquo;s restarted,
+finish installing the SDKs from the <strong>Package Manager</strong>.</p>
+<p>When you get to the <strong>Meta XR Interaction SDK</strong>, it will prompt you to choose a hand skeleton SDK:</p>
+<p><img alt="Hand Skeleton SDK" src="/blog/unity-meta-quest-apple-silicon/hand-skeleton.png" title="Hand Skeleton SDK"></p>
+<p>Follow the advice and choose <strong>Use OpenXR Hand</strong>.  That installation can be your last as it also installs <strong>Meta XR
+Interaction SDK Essentials</strong>.  Close the <strong>Package Manager</strong>.</p>
+<p>Almost there!  Let&rsquo;s go to <strong>Edit</strong> → <strong>Project Settings&hellip;</strong> → <strong>XR Plug-in Management</strong> and enable <strong>OpenXR</strong> on each
+platform tab:</p>
+<p><img alt="OpenXR Plugin Provider" src="/blog/unity-meta-quest-apple-silicon/openxr-platform-tab.png"></p>
+<p>Then go down to <strong>Project Validation</strong> and click <strong>Fix All</strong> on each platform tab:</p>
+<p><img alt="Project Validation" src="/blog/unity-meta-quest-apple-silicon/project-validation.png" title="Project Validation"></p>
+<p>And finally we go up one item on the left menu to <strong>OpenXR</strong> and set the <strong>Play Mode OpenXR Runtime</strong> to <strong>Other</strong>:</p>
+<p><img alt="Play Mode Runtime" src="/blog/unity-meta-quest-apple-silicon/play-runtime.png" title="Play Mode Runtime"></p>
+<p>A file selector will pop up.  Use <code>command+shift+G</code> and paste in your simulator path from earlier, remembering to
+replace <code>__VERSION__</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>/opt/homebrew/Cellar/meta-xr-simulator/__VERSION__/
+</span></span></code></pre></div><p>Hit <code>return</code> to navigate to that folder, and select the <code>meta_openxr_simulator.json</code> file and hit <strong>Open</strong>.</p>
+<p>That&rsquo;s it!  Run your project with the normal Unity <strong>Play</strong> button and it should now launch in the simulator:</p>
+<video controls>
+  <source src="first-run.mov" type="video/mp4">
+</video>
+
+<h3 id="xbox-controller-setup" class="anchor-link"><a href="#xbox-controller-setup">Xbox Controller Setup</a></h3>
+<p><span style="color:red">come back to this</span>
+<a href="https://developers.meta.com/horizon/downloads/package/oculus-developer-hub-mac">https://developers.meta.com/horizon/downloads/package/oculus-developer-hub-mac</a></p>
+
+</div>
+
+
+
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        <span class="footer-text">
+            Made with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i>. All opinions are my own.<br/>© 2024 <a href="https://pianka.io/#contact">Rick Pianka</a>. All rights reserved.
+        </span>
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="http://localhost:1313/js/bundle.5c23c0437f001a469ca373a465a6f7487203d18e10cdff76d86a60af66d5ee28.js" integrity="sha256-XCPAQ38AGkaco3OkZab3SHID0Y4Qzf922Gpgr2bV7ig="></script>
+
+
+
+
+        
+        
+        
+        
+    </body>
+</html>

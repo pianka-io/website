@@ -65,35 +65,35 @@
             {{ partial "home/blog.html" . }}
         {{ else }}
 
-        <!-- Range through all sections in /home execept contact.md -->
-        <div class="section" id="{{ .File.TranslationBaseName }}">
-            <div class="container">
-                <h2 class="title is-2 has-text-centered">{{ .Title | markdownify }}</h2>
-                {{ if .Params.Image }}
-                <div class="columns">
-                    <div class="column is-one-third has-text-centered">
-                        {{ with $home.Resources.GetMatch .Params.Image }}
-                        {{ with .Resize "320x" }}
-                        <img class="img-responsive avatar" src="{{ .Permalink }}" alt="{{ .Name }}">
-                        {{ end }}
-                        {{ end }}
-                    </div>
-                    <div class="markdown column">
-                        {{ .Content }}
-                    </div>
-                </div>
-                {{ else }}
-                <div class="markdown has-text-centered">
-                    {{ .Content }}
-                </div>
-                {{ end }}
-            </div>
-            <!-- End About container-->
-            {{ partial "top-icon.html" . }}
-        </div>
-        <div class="container">
-            <hr>
-        </div>
+<!--        &lt;!&ndash; Range through all sections in /home execept contact.md &ndash;&gt;-->
+<!--        <div class="section" id="{{ .File.TranslationBaseName }}">-->
+<!--            <div class="container">-->
+<!--                <h2 class="title is-2 has-text-centered">{{ .Title | markdownify }}</h2>-->
+<!--                {{ if .Params.Image }}-->
+<!--                <div class="columns">-->
+<!--                    <div class="column is-one-third has-text-centered">-->
+<!--                        {{ with $home.Resources.GetMatch .Params.Image }}-->
+<!--                        {{ with .Resize "320x" }}-->
+<!--                        <img class="img-responsive avatar" src="{{ .Permalink }}" alt="{{ .Name }}">-->
+<!--                        {{ end }}-->
+<!--                        {{ end }}-->
+<!--                    </div>-->
+<!--                    <div class="markdown column">-->
+<!--                        {{ .Content }}-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                {{ else }}-->
+<!--                <div class="markdown has-text-centered">-->
+<!--                    {{ .Content }}-->
+<!--                </div>-->
+<!--                {{ end }}-->
+<!--            </div>-->
+<!--            &lt;!&ndash; End About container&ndash;&gt;-->
+<!--            {{ partial "top-icon.html" . }}-->
+<!--        </div>-->
+<!--        <div class="container">-->
+<!--            <hr>-->
+<!--        </div>-->
         {{ end }}
         {{ end }}
         {{ end }}
