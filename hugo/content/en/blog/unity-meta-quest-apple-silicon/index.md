@@ -17,7 +17,7 @@ controls to the simulator as well.
 
 [Install Homebrew](https://brew.sh/) if you don't already have it.
 
-### Meta XR Simulator Setup
+## Meta XR Simulator Setup
 The simulator relies on the [Vulkan SDK](https://www.lunarg.com/vulkan-sdk/).  Download it 
 [from here](https://vulkan.lunarg.com/doc/sdk/latest/mac/getting_started.html).  Unzip it and run the installer app
 `InstallVulkan.app`. **<span style="color:orange">The options you select during installation are important!</span>**
@@ -51,7 +51,7 @@ sudo /opt/homebrew/Cellar/meta-xr-simulator/__VERSION__/post_installation_macos.
 
 At this point, the simulator should be fully installed and configured.
 
-### Unity Setup
+## Unity Setup
 
 Grab the Unity Hub if you don't already have it:
 
@@ -75,15 +75,15 @@ using the **Built-In Render Pipeline**, though I've got mine working with the **
 
 Choose your location, name, and Unity services as desired and click **Create project**.
 
-### Project Setup
+## Project Setup
 
 With your Unity project open, go to **Window** → **Package Manager** → **Unity Registry** and search for `OpenXR Plugin`
 and install it:
 
 ![OpenXR Plugin](openxr-plugin.png "OpenXR Plugin")
 
-Close any windows that pop up, we'll come back to them. Next we need to add some assets.  Because our simulator must be
-installed with Homebrew, <span style="color: orange">we cannot use the 
+The version should be at or above `1.13.1`. Close any windows that pop up, we'll come back to them. Next we need to add
+some assets.  Because our simulator must be installed with Homebrew, <span style="color: orange">we cannot use the 
 [<span style="color: orange">Meta XR All-in-One SDK</span>](
   https://assetstore.unity.com/packages/tools/integration/meta-xr-all-in-one-sdk-269657
 )!</span>
@@ -136,7 +136,7 @@ replace `__VERSION__`:
 /opt/homebrew/Cellar/meta-xr-simulator/__VERSION__/
 ```
 
-Hit `return` to navigate to that folder, and select the `meta_openxr_simulator.json` file and hit **Open**.
+Hit `return` to navigate to that folder, and select the `meta_openxr_simulator.json` file and click **Open**.
 
 That's it!  Run your project with the normal Unity **Play** button and it should now launch in the simulator:
 
@@ -144,10 +144,17 @@ That's it!  Run your project with the normal Unity **Play** button and it should
   <source src="first-run.mov" type="video/mp4">
 </video>
 
-### Xbox Controller Setup
+## Xbox Controller Setup
 
+We will follow [this guide](https://support.apple.com/en-us/111101) from Apple to pair the controller.  Hold down the
+pair button on your controller until it starts flashing rapidly.  Then open **System Settings** → **Bluetooth** and 
+connect to it:
 
+![Xbox Controller Bluetooth](xbox-controller-bluetooth.png "Xbox Controller Bluetooth")
 
+If you relaunch the simulator, and open the **Inputs** window, you should see the controller available now:
+
+![Xbox Controller Connected](xbox-controller-connected.png "Xbox Controller Connected")
 
 
 

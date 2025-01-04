@@ -34,7 +34,7 @@
       <link>http://localhost:1313/blog/unity-meta-quest-apple-silicon/</link>
       <pubDate>Sun, 08 Dec 2024 09:56:09 -0500</pubDate>
       <guid>http://localhost:1313/blog/unity-meta-quest-apple-silicon/</guid>
-      <description></description>
+      <description>&lt;p&gt;If you&amp;rsquo;re looking to develop &lt;a href=&#34;https://unity.com/&#34;&gt;Unity&lt;/a&gt; projects for &lt;a href=&#34;https://www.meta.com/quest/&#34;&gt;Meta Quest&lt;/a&gt; devices&#xA;using macOS with an M-series chip, it recently got a little easier.  This is a step-by-step guide to setting up a fresh&#xA;environment with Unity, the &lt;a href=&#34;https://developers.meta.com/horizon/documentation/unity/xrsim-intro/&#34;&gt;Meta XR Simulator&lt;/a&gt;,&#xA;your Meta Quest device, and an Xbox Wireless Controller on Apple Silicon.  Before we begin, it&amp;rsquo;s important to note that&#xA;Meta&amp;rsquo;s &lt;a href=&#34;https://developers.meta.com/horizon/documentation/unity/unity-link&#34;&gt;Unity Link&lt;/a&gt; tool is still not supported on&#xA;macOS.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll first install the Meta XR Simulator and its dependencies, then configure it in a new Unity 6 project, and map an&#xA;Xbox controller to its input.  Then we&amp;rsquo;ll hook Unity up to our Meta Quest device as a build and run target, and map its&#xA;controls to the simulator as well.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
