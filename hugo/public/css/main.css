@@ -13070,6 +13070,10 @@ img {
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); }
 
+img.flat {
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); }
+
 hr {
   background-color: #dbdbdb;
   height: 1px; }
@@ -23339,6 +23343,9 @@ readers do not read off random characters that represent icons */
   img {
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); }
+  img.flat {
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); }
   hr {
     background-color: #efefef;
     height: 1px; }

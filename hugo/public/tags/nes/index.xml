@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nes on Rick Pianka</title>
-    <link>http://localhost:1313/tags/nes/</link>
+    <link>http://pianka.io/tags/nes/</link>
     <description>Recent content in Nes on Rick Pianka</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2024 09:56:09 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/nes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jan 2025 20:20:00 -0500</lastBuildDate>
+    <atom:link href="http://pianka.io/tags/nes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pytendo: a Python NES emulator written in C</title>
-      <link>http://localhost:1313/blog/foobar/</link>
-      <pubDate>Sun, 08 Dec 2024 09:56:09 -0500</pubDate>
-      <guid>http://localhost:1313/blog/foobar/</guid>
-      <description></description>
+      <link>http://pianka.io/blog/pytendo-nes-emulator/</link>
+      <pubDate>Fri, 03 Jan 2025 20:20:00 -0500</pubDate>
+      <guid>http://pianka.io/blog/pytendo-nes-emulator/</guid>
+      <description>&lt;p&gt;My holiday break project this year was to build an NES emulator in Python, sort of. Somewhere&#xA;between recently beating the &lt;a href=&#34;https://nandgame.com/&#34;&gt;NandGame&lt;/a&gt;, feeling nostalgia after seeing the&#xA;&lt;a href=&#34;https://github.com/PWhiddy/PokemonRedExperiments&#34;&gt;Pokemon Red Experiments&lt;/a&gt;, and getting a new graphics&#xA;card, I felt like building an NES emulator in Python that I could try to train an AI to play.&lt;/p&gt;&#xA;&lt;p&gt;So, I humbly introduce my latest project&amp;hellip;&lt;/p&gt;&#xA;&lt;img class=&#34;flat&#34; src=&#34;https://pianka.io/blog/pytendo-nes-emulator/pytendo.png&#34; alt=&#34;pytendo&#34; title=&#34;pytendo&#34;&gt;&#xA;&#xA;&lt;h2 id=&#34;the-design&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#the-design&#34;&gt;The Design&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I started by building a multithreaded prototype in pure Python, using &lt;a href=&#34;https://www.pygame.org/&#34;&gt;pygame&lt;/a&gt; to draw frames&#xA;–  it was unsurprisingly slow.  I ported it to &lt;a href=&#34;https://cython.org/&#34;&gt;Cython&lt;/a&gt;, but it spent all its time thrashing&#xA;on the &lt;a href=&#34;https://wiki.python.org/moin/GlobalInterpreterLock&#34;&gt;Python GIL&lt;/a&gt;, the main thread starving the emulator&#xA;threads.  I refactored that implementation to be single-threaded as clock synchronization across threads is complex,&#xA;but the performance was simply not good enough.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

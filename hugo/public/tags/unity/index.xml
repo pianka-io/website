@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unity on Rick Pianka</title>
-    <link>http://localhost:1313/tags/unity/</link>
+    <link>http://pianka.io/tags/unity/</link>
     <description>Recent content in Unity on Rick Pianka</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Dec 2024 09:56:09 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pianka.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Unity &#43; Meta Quest on Apple Silicon</title>
-      <link>http://localhost:1313/blog/unity-meta-quest-apple-silicon/index.ignore/</link>
+      <link>http://pianka.io/blog/unity-meta-quest-apple-silicon/</link>
       <pubDate>Sun, 08 Dec 2024 09:56:09 -0500</pubDate>
-      <guid>http://localhost:1313/blog/unity-meta-quest-apple-silicon/index.ignore/</guid>
+      <guid>http://pianka.io/blog/unity-meta-quest-apple-silicon/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re looking to develop &lt;a href=&#34;https://unity.com/&#34;&gt;Unity&lt;/a&gt; projects for &lt;a href=&#34;https://www.meta.com/quest/&#34;&gt;Meta Quest&lt;/a&gt; devices&#xA;using macOS with an M-series chip, it recently got a little easier.  This is a step-by-step guide to setting up a fresh&#xA;environment with Unity, the &lt;a href=&#34;https://developers.meta.com/horizon/documentation/unity/xrsim-intro/&#34;&gt;Meta XR Simulator&lt;/a&gt;,&#xA;your Meta Quest device, and an Xbox Wireless Controller on Apple Silicon.  Before we begin, it&amp;rsquo;s important to note that&#xA;Meta&amp;rsquo;s &lt;a href=&#34;https://developers.meta.com/horizon/documentation/unity/unity-link&#34;&gt;Unity Link&lt;/a&gt; tool is still not supported on&#xA;macOS.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll first install the Meta XR Simulator and its dependencies, then configure it in a new Unity 6 project, and map an&#xA;Xbox controller to its input.  Then we&amp;rsquo;ll hook Unity up to our Meta Quest device as a build and run target, and map its&#xA;controls to the simulator as well.&lt;/p&gt;</description>
     </item>
   </channel>

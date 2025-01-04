@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
         
         
 
@@ -22,20 +22,20 @@ Blog - Rick Pianka
         <meta property="og:title" content="Blog - Rick Pianka" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="Website Description"/>
-<meta property="og:url" content="http://localhost:1313/blog/"/>
+<meta property="og:url" content="http://pianka.io/blog/"/>
 <meta property="og:site_name" content="Rick Pianka"/>
 
 
 
-<meta property="og:image" content="http://localhost:1313/blog/unity-meta-quest-apple-silicon/android-build-support.png"/>
+<meta property="og:image" content="http://pianka.io/blog/unity-meta-quest-apple-silicon/android-build-support.png"/>
 
-<meta property="og:image" content="http://localhost:1313/blog/unity-meta-quest-apple-silicon/hand-skeleton.png"/>
+<meta property="og:image" content="http://pianka.io/blog/unity-meta-quest-apple-silicon/hand-skeleton.png"/>
 
-<meta property="og:image" content="http://localhost:1313/blog/unity-meta-quest-apple-silicon/install-unity-editor.png"/>
+<meta property="og:image" content="http://pianka.io/blog/unity-meta-quest-apple-silicon/install-unity-editor.png"/>
 
-<meta property="og:image" content="http://localhost:1313/blog/unity-meta-quest-apple-silicon/openxr-platform-tab.png"/>
+<meta property="og:image" content="http://pianka.io/blog/unity-meta-quest-apple-silicon/openxr-platform-tab.png"/>
 
-<meta property="og:image" content="http://localhost:1313/blog/unity-meta-quest-apple-silicon/openxr-plugin.png"/>
+<meta property="og:image" content="http://pianka.io/blog/unity-meta-quest-apple-silicon/openxr-plugin.png"/>
 
 
 
@@ -48,7 +48,8 @@ Blog - Rick Pianka
 
 
 
-<link rel="stylesheet" href="/css/main.css" media="screen">
+
+<link rel="stylesheet" href="/css/main.min.ca749967f92622e1c08b3aebe9d1dc3d54350ff9c822ac27eb76c304b8bc6126.css" integrity="sha256-ynSZZ/kmIuHAizrr6dHcPVQ1D/nIIqwn63bDBLi8YSY=" crossorigin="anonymous" media="screen">
 
 
 
@@ -108,7 +109,7 @@ Blog - Rick Pianka
                 
                 
                 
-                  <a class="navbar-item" href="http://localhost:1313/projects/">
+                  <a class="navbar-item" href="http://pianka.io/projects/">
                   
                   
                   Projects
@@ -161,14 +162,28 @@ Blog - Rick Pianka
     <h2 class="title is-2 top-pad">Latest Post</h2>
     
     <div class="summary">
-        Dec 8, 2024
+        Jan 3, 2025
         <h3 class="title is-3 strong-post-title">
-            <a href="http://localhost:1313/blog/foobar/">
+            <a href="http://pianka.io/blog/pytendo-nes-emulator/">
                 pytendo: a Python NES emulator written in C
             </a>
         </h3>
         <div class="markdown">
+            <p>My holiday break project this year was to build an NES emulator in Python, sort of. Somewhere
+between recently beating the <a href="https://nandgame.com/">NandGame</a>, feeling nostalgia after seeing the
+<a href="https://github.com/PWhiddy/PokemonRedExperiments">Pokemon Red Experiments</a>, and getting a new graphics
+card, I felt like building an NES emulator in Python that I could try to train an AI to play.</p>
+<p>So, I humbly introduce my latest project&hellip;</p>
+<img class="flat" src="https://pianka.io/blog/pytendo-nes-emulator/pytendo.png" alt="pytendo" title="pytendo">
+
+<h2 id="the-design" class="anchor-link"><a href="#the-design">The Design</a></h2>
+<p>I started by building a multithreaded prototype in pure Python, using <a href="https://www.pygame.org/">pygame</a> to draw frames
+–  it was unsurprisingly slow.  I ported it to <a href="https://cython.org/">Cython</a>, but it spent all its time thrashing
+on the <a href="https://wiki.python.org/moin/GlobalInterpreterLock">Python GIL</a>, the main thread starving the emulator
+threads.  I refactored that implementation to be single-threaded as clock synchronization across threads is complex,
+but the performance was simply not good enough.</p>
             
+            <a href="http://pianka.io/blog/pytendo-nes-emulator/">Read more</a>
             
         </div>
     </div>
@@ -183,6 +198,7 @@ Blog - Rick Pianka
     
     
     
+    <h2 class="title is-2 top-pad"> 2025</h2> 
     
     
 
@@ -190,13 +206,11 @@ Blog - Rick Pianka
     
     
     
-    <h2 class="title is-2 top-pad">2024</h2>
-    
     <li class="post-item">
         
-        <span>Dec 8, 2024</span> -
+        <span>Jan 3, 2025</span> -
         
-        <span><a href="http://localhost:1313/blog/foobar/">pytendo: a Python NES emulator written in C</a></span>
+        <span><a href="http://pianka.io/blog/pytendo-nes-emulator/">pytendo: a Python NES emulator written in C</a></span>
     </li>
     
     
@@ -225,7 +239,7 @@ Blog - Rick Pianka
     <div class="container has-text-centered">
     
         <span class="footer-text">
-            Made with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i>. All opinions are my own.<br/>© 2024 <a href="https://pianka.io/#contact">Rick Pianka</a>. All rights reserved.
+            Made with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i>. All opinions are my own.<br/>© 2025 <a href="https://pianka.io/#contact">Rick Pianka</a>. All rights reserved.
         </span>
     
     </div>
@@ -238,7 +252,7 @@ Blog - Rick Pianka
         
 
 
-<script src="http://localhost:1313/js/bundle.5c23c0437f001a469ca373a465a6f7487203d18e10cdff76d86a60af66d5ee28.js" integrity="sha256-XCPAQ38AGkaco3OkZab3SHID0Y4Qzf922Gpgr2bV7ig="></script>
+<script src="http://pianka.io/js/bundle.5c23c0437f001a469ca373a465a6f7487203d18e10cdff76d86a60af66d5ee28.js" integrity="sha256-XCPAQ38AGkaco3OkZab3SHID0Y4Qzf922Gpgr2bV7ig="></script>
 
 
 

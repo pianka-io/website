@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Rick Pianka</title>
-    <link>http://pianka.io/tags/python/</link>
-    <description>Recent content in Python on Rick Pianka</description>
+    <title>C on Rick Pianka</title>
+    <link>http://pianka.io/tags/c/</link>
+    <description>Recent content in C on Rick Pianka</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2025 20:20:00 -0500</lastBuildDate>
-    <atom:link href="http://pianka.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://pianka.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pytendo: a Python NES emulator written in C</title>
       <link>http://pianka.io/blog/pytendo-nes-emulator/</link>

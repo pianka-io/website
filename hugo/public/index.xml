@@ -2,46 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rick Pianka</title>
-    <link>http://localhost:1313/</link>
+    <link>http://pianka.io/</link>
     <description>Recent content on Rick Pianka</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2024 09:56:09 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jan 2025 20:20:00 -0500</lastBuildDate>
+    <atom:link href="http://pianka.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Photography</title>
-      <link>http://localhost:1313/projects/photography/</link>
+      <link>http://pianka.io/projects/photography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/photography/</guid>
+      <guid>http://pianka.io/projects/photography/</guid>
       <description>&lt;h2 id=&#34;sometimes-i-take-pictures&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#sometimes-i-take-pictures&#34;&gt;Sometimes I take pictures&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This project is about the pictures I take. Sometimes, they are pictures of cats.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Design</title>
-      <link>http://localhost:1313/projects/design/</link>
+      <link>http://pianka.io/projects/design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/design/</guid>
+      <guid>http://pianka.io/projects/design/</guid>
       <description>&lt;p&gt;This theme was designed by &lt;a href=&#34;https://victoria.dev&#34;&gt;Victoria Drake&lt;/a&gt;. Go on, explore! 💪&lt;/p&gt;&#xA;&lt;p&gt;If you want to use it for your website, check out the section at the bottom of the main page. 👍&lt;/p&gt;</description>
     </item>
     <item>
       <title>Writing</title>
-      <link>http://localhost:1313/projects/writing/</link>
+      <link>http://pianka.io/projects/writing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/writing/</guid>
+      <guid>http://pianka.io/projects/writing/</guid>
       <description>&lt;p&gt;Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.&lt;/p&gt;&#xA;&lt;p&gt;To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop. Latte instant black extra aroma, instant, extra robusta variety skinny shop aged cup ristretto foam cortado. Bar galão skinny saucer est affogato sugar caffeine chicory sugar coffee, seasonal barista french press acerbic in chicory robust.&lt;/p&gt;</description>
     </item>
     <item>
       <title>pytendo: a Python NES emulator written in C</title>
-      <link>http://localhost:1313/blog/foobar/</link>
-      <pubDate>Sun, 08 Dec 2024 09:56:09 -0500</pubDate>
-      <guid>http://localhost:1313/blog/foobar/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Unity &#43; Meta Quest on Apple Silicon</title>
-      <link>http://localhost:1313/blog/unity-meta-quest-apple-silicon/index.ignore/</link>
-      <pubDate>Sun, 08 Dec 2024 09:56:09 -0500</pubDate>
-      <guid>http://localhost:1313/blog/unity-meta-quest-apple-silicon/index.ignore/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;re looking to develop &lt;a href=&#34;https://unity.com/&#34;&gt;Unity&lt;/a&gt; projects for &lt;a href=&#34;https://www.meta.com/quest/&#34;&gt;Meta Quest&lt;/a&gt; devices&#xA;using macOS with an M-series chip, it recently got a little easier.  This is a step-by-step guide to setting up a fresh&#xA;environment with Unity, the &lt;a href=&#34;https://developers.meta.com/horizon/documentation/unity/xrsim-intro/&#34;&gt;Meta XR Simulator&lt;/a&gt;,&#xA;your Meta Quest device, and an Xbox Wireless Controller on Apple Silicon.  Before we begin, it&amp;rsquo;s important to note that&#xA;Meta&amp;rsquo;s &lt;a href=&#34;https://developers.meta.com/horizon/documentation/unity/unity-link&#34;&gt;Unity Link&lt;/a&gt; tool is still not supported on&#xA;macOS.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll first install the Meta XR Simulator and its dependencies, then configure it in a new Unity 6 project, and map an&#xA;Xbox controller to its input.  Then we&amp;rsquo;ll hook Unity up to our Meta Quest device as a build and run target, and map its&#xA;controls to the simulator as well.&lt;/p&gt;</description>
+      <link>http://pianka.io/blog/pytendo-nes-emulator/</link>
+      <pubDate>Fri, 03 Jan 2025 20:20:00 -0500</pubDate>
+      <guid>http://pianka.io/blog/pytendo-nes-emulator/</guid>
+      <description>&lt;p&gt;My holiday break project this year was to build an NES emulator in Python, sort of. Somewhere&#xA;between recently beating the &lt;a href=&#34;https://nandgame.com/&#34;&gt;NandGame&lt;/a&gt;, feeling nostalgia after seeing the&#xA;&lt;a href=&#34;https://github.com/PWhiddy/PokemonRedExperiments&#34;&gt;Pokemon Red Experiments&lt;/a&gt;, and getting a new graphics&#xA;card, I felt like building an NES emulator in Python that I could try to train an AI to play.&lt;/p&gt;&#xA;&lt;p&gt;So, I humbly introduce my latest project&amp;hellip;&lt;/p&gt;&#xA;&lt;img class=&#34;flat&#34; src=&#34;https://pianka.io/blog/pytendo-nes-emulator/pytendo.png&#34; alt=&#34;pytendo&#34; title=&#34;pytendo&#34;&gt;&#xA;&#xA;&lt;h2 id=&#34;the-design&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#the-design&#34;&gt;The Design&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I started by building a multithreaded prototype in pure Python, using &lt;a href=&#34;https://www.pygame.org/&#34;&gt;pygame&lt;/a&gt; to draw frames&#xA;–  it was unsurprisingly slow.  I ported it to &lt;a href=&#34;https://cython.org/&#34;&gt;Cython&lt;/a&gt;, but it spent all its time thrashing&#xA;on the &lt;a href=&#34;https://wiki.python.org/moin/GlobalInterpreterLock&#34;&gt;Python GIL&lt;/a&gt;, the main thread starving the emulator&#xA;threads.  I refactored that implementation to be single-threaded as clock synchronization across threads is complex,&#xA;but the performance was simply not good enough.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
