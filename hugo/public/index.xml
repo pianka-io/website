@@ -30,10 +30,17 @@
       <description>&lt;p&gt;Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.&lt;/p&gt;&#xA;&lt;p&gt;To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop. Latte instant black extra aroma, instant, extra robusta variety skinny shop aged cup ristretto foam cortado. Bar galão skinny saucer est affogato sugar caffeine chicory sugar coffee, seasonal barista french press acerbic in chicory robust.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Unity &#43; Meta Quest on Apple Silicon</title>
-      <link>http://localhost:1313/blog/unity-meta-quest-apple-silicon/</link>
+      <title>pytendo: a Python NES emulator written in C</title>
+      <link>http://localhost:1313/blog/foobar/</link>
       <pubDate>Sun, 08 Dec 2024 09:56:09 -0500</pubDate>
-      <guid>http://localhost:1313/blog/unity-meta-quest-apple-silicon/</guid>
+      <guid>http://localhost:1313/blog/foobar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unity &#43; Meta Quest on Apple Silicon</title>
+      <link>http://localhost:1313/blog/unity-meta-quest-apple-silicon/index.ignore/</link>
+      <pubDate>Sun, 08 Dec 2024 09:56:09 -0500</pubDate>
+      <guid>http://localhost:1313/blog/unity-meta-quest-apple-silicon/index.ignore/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re looking to develop &lt;a href=&#34;https://unity.com/&#34;&gt;Unity&lt;/a&gt; projects for &lt;a href=&#34;https://www.meta.com/quest/&#34;&gt;Meta Quest&lt;/a&gt; devices&#xA;using macOS with an M-series chip, it recently got a little easier.  This is a step-by-step guide to setting up a fresh&#xA;environment with Unity, the &lt;a href=&#34;https://developers.meta.com/horizon/documentation/unity/xrsim-intro/&#34;&gt;Meta XR Simulator&lt;/a&gt;,&#xA;your Meta Quest device, and an Xbox Wireless Controller on Apple Silicon.  Before we begin, it&amp;rsquo;s important to note that&#xA;Meta&amp;rsquo;s &lt;a href=&#34;https://developers.meta.com/horizon/documentation/unity/unity-link&#34;&gt;Unity Link&lt;/a&gt; tool is still not supported on&#xA;macOS.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll first install the Meta XR Simulator and its dependencies, then configure it in a new Unity 6 project, and map an&#xA;Xbox controller to its input.  Then we&amp;rsquo;ll hook Unity up to our Meta Quest device as a build and run target, and map its&#xA;controls to the simulator as well.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Rick Pianka</title>
-    <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blog on Rick Pianka</description>
+    <title>Nes on Rick Pianka</title>
+    <link>http://localhost:1313/tags/nes/</link>
+    <description>Recent content in Nes on Rick Pianka</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Dec 2024 09:56:09 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/nes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pytendo: a Python NES emulator written in C</title>
       <link>http://localhost:1313/blog/foobar/</link>

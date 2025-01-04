@@ -19,10 +19,25 @@
     <loc>http://localhost:1313/tags/meta/</loc>
     <lastmod>2024-12-08T09:56:09-05:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/nes/</loc>
+    <lastmod>2024-12-08T09:56:09-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/pytendo/</loc>
+    <lastmod>2024-12-08T09:56:09-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/foobar/</loc>
+    <lastmod>2024-12-08T09:56:09-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2024-12-08T09:56:09-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/quest/</loc>
     <lastmod>2024-12-08T09:56:09-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-08T09:56:09-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
     <lastmod>2024-12-08T09:56:09-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -31,9 +46,7 @@
     <loc>http://localhost:1313/tags/unity/</loc>
     <lastmod>2024-12-08T09:56:09-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/unity-meta-quest-apple-silicon/</loc>
+    <loc>http://localhost:1313/blog/unity-meta-quest-apple-silicon/index.ignore/</loc>
     <lastmod>2024-12-08T09:56:09-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

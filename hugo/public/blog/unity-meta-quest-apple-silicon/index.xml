@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unity &#43; Meta Quest on Apple Silicon on Rick Pianka</title>
+    <link>http://localhost:1313/blog/unity-meta-quest-apple-silicon/</link>
+    <description>Recent content in Unity &#43; Meta Quest on Apple Silicon on Rick Pianka</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/unity-meta-quest-apple-silicon/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
