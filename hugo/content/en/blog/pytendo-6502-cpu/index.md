@@ -13,4 +13,8 @@ ones](https://www.nesdev.org/wiki/CPU_unofficial_opcodes). I also ported it to r
 
 <img class="flat" src="https://pianka.io/blog/pytendo-6502-cpu/nestest.png" alt="pytendo" title="pytendo">
 
+I also got the very basics of sprite rendering working:
+
+{{< youtube id="fHUD39jUHQg" >}}
+
 There are some small updates to the debugger, but I'll save those for later – that's all for now.
