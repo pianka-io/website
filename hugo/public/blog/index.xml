@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Rick Pianka</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jan 2025 20:20:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2025 18:15:00 -0500</lastBuildDate>
     <atom:link href="http://pianka.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pytendo: 6502 CPU progress</title>
+      <link>http://pianka.io/blog/pytendo-6502-cpu/</link>
+      <pubDate>Sun, 19 Jan 2025 18:15:00 -0500</pubDate>
+      <guid>http://pianka.io/blog/pytendo-6502-cpu/</guid>
+      <description>&lt;p&gt;This is a quick update, my pytendo CPU implementation hit a small milestone: it&amp;rsquo;s passing the&#xA;&lt;a href=&#34;http://nickmass.com/images/nestest.nes&#34;&gt;nestest ROM&lt;/a&gt; from &lt;a href=&#34;https://www.nesdev.org/wiki/Emulator_tests&#34;&gt;NesDev&amp;rsquo;s emulator tests&lt;/a&gt;!&#xA;I&amp;rsquo;ve implemented 149 of the &lt;a href=&#34;https://www.nesdev.org/wiki/Instruction_reference&#34;&gt;151 official instructions&lt;/a&gt; in the&#xA;&lt;a href=&#34;https://www.wikiwand.com/en/articles/MOS_Technology_6502&#34;&gt;MOS 6502&lt;/a&gt; (sans &lt;code&gt;brk&lt;/code&gt; and &lt;code&gt;cli&lt;/code&gt;), and none of the &lt;a href=&#34;https://www.nesdev.org/wiki/CPU_unofficial_opcodes&#34;&gt;unofficial&#xA;ones&lt;/a&gt;. I also ported it to run on my Windows 11 machine 😊&lt;/p&gt;&#xA;&lt;img class=&#34;flat&#34; src=&#34;https://pianka.io/blog/pytendo-6502-cpu/nestest.png&#34; alt=&#34;pytendo&#34; title=&#34;pytendo&#34;&gt;&#xA;&lt;p&gt;There are some small updates to the debugger, but I&amp;rsquo;ll save those for later – that&amp;rsquo;s all for now.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>pytendo: a Python NES emulator written in C</title>
       <link>http://pianka.io/blog/pytendo-nes-emulator/</link>

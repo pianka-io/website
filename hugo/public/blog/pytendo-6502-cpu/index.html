@@ -13,23 +13,21 @@
 <meta name="referrer" content="no-referrer">
 <meta name="description" content="Website Description">
 <title>
-Pytendo - Rick Pianka
+Pytendo 6502 CPU Progress - Rick Pianka
 </title>
 
-<link href="/series/pytendo/index.xml" rel="alternate" type="application/rss+xml" title="Rick Pianka" />
+
 
         
-        <meta property="og:title" content="Pytendo - Rick Pianka" />
+        <meta property="og:title" content="pytendo: 6502 CPU progress - Rick Pianka" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="Website Description"/>
-<meta property="og:url" content="http://pianka.io/series/pytendo/"/>
+<meta property="og:url" content="http://pianka.io/blog/pytendo-6502-cpu/"/>
 <meta property="og:site_name" content="Rick Pianka"/>
 
 
 
-
-<meta property="og:image" content="http://pianka.io/home/profile.jpg"/>
-
+<meta property="og:image" content="http://pianka.io/blog/pytendo-6502-cpu/nestest.png"/>
 
 
 
@@ -59,7 +57,9 @@ Pytendo - Rick Pianka
             
             <div class="container hero  fade-in one ">
                 
-<h1 class="bold-title is-1">Series: pytendo</h1>
+
+<h1 class="bold-title is-1">Blog</h1>
+
 
             </div>
             
@@ -123,7 +123,7 @@ Pytendo - Rick Pianka
                 
                   <a class="navbar-item" href="http://pianka.io/blog/">
                   
-                  Blog
+                  Back to Blog
                   
                   </a>
                 
@@ -155,24 +155,104 @@ Pytendo - Rick Pianka
 
                 
 <div class="container">
-    <ul>
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="http://pianka.io/blog/pytendo-6502-cpu/">pytendo: 6502 CPU progress</a>
+    </h2>
+    
+    <div class="post-data">
+        Jan 19, 2025
+        
+         | 
+        1 minute read
+        
+    </div>
+    
+    <div class="blog-share">
+        Share this:
+        
+        <a class="twitter-share-button"
+            href="https://twitter.com/intent/tweet?text=pytendo%3a%206502%20CPU%20progress%20http%3a%2f%2fpianka.io%2fblog%2fpytendo-6502-cpu%2f"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fab fa-twitter"></i>
+            <span class="hidden">Twitter</span>
+        </a>
         
         
-        <li>
-            <a href="http://pianka.io/blog/pytendo-6502-cpu/">Jan 19, 2025 |
-                pytendo: 6502 CPU progress</a>
-        </li>
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fpianka.io%2fblog%2fpytendo-6502-cpu%2f"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <i class="fab fa-facebook-f"></i>
+            <span class="hidden">Facebook</span>
+        </a>
         
         
+        <a class="icon-pinterest"
+            href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fpianka.io%2fblog%2fpytendo-6502-cpu%2f&amp;description=pytendo%3a%206502%20CPU%20progress"
+            onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+            <i class="fab fa-pinterest-p"></i>
+            <span class="hidden">Pinterest</span>
+        </a>
         
-        <li>
-            <a href="http://pianka.io/blog/pytendo-nes-emulator/">Jan 3, 2025 |
-                pytendo: a Python NES emulator written in C</a>
-        </li>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <p>
+        Series:
         
+        <a href="/series/pytendo">
+            pytendo</a>
         
-    </ul>
+    </p>
+    
+    
+    
+    
+    <p>
+        Tags:
+        
+        <a href="/tags/games">
+            games</a>,
+        
+        <a href="/tags/python">
+            python</a>,
+        
+        <a href="/tags/nes">
+            nes</a>,
+        
+        <a href="/tags/c">
+            c</a>
+        
+    </p>
+    
+    
+    
+    
 </div>
+
+<div class="container markdown top-pad">
+    <p>This is a quick update, my pytendo CPU implementation hit a small milestone: it&rsquo;s passing the
+<a href="http://nickmass.com/images/nestest.nes">nestest ROM</a> from <a href="https://www.nesdev.org/wiki/Emulator_tests">NesDev&rsquo;s emulator tests</a>!
+I&rsquo;ve implemented 149 of the <a href="https://www.nesdev.org/wiki/Instruction_reference">151 official instructions</a> in the
+<a href="https://www.wikiwand.com/en/articles/MOS_Technology_6502">MOS 6502</a> (sans <code>brk</code> and <code>cli</code>), and none of the <a href="https://www.nesdev.org/wiki/CPU_unofficial_opcodes">unofficial
+ones</a>. I also ported it to run on my Windows 11 machine 😊</p>
+<img class="flat" src="https://pianka.io/blog/pytendo-6502-cpu/nestest.png" alt="pytendo" title="pytendo">
+<p>There are some small updates to the debugger, but I&rsquo;ll save those for later – that&rsquo;s all for now.</p>
+
+</div>
+
+
+
 
 
                 

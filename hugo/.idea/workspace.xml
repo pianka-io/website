@@ -5,48 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20ef323-20cb-4e84-a1d0-ab6c172c2e88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/en/blog/pytendo-nes-emulator/architecture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/blog/pytendo-nes-emulator/pytendo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/en/blog/pytendo-6502-cpu/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/en/blog/foobar/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/blog/pytendo-nes-emulator/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blog/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog/pytendo-nes-emulator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/pytendo-nes-emulator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog/unity-meta-quest-apple-silicon/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/unity-meta-quest-apple-silicon/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projects/design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/projects/design/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projects/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/projects/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projects/photography/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/projects/photography/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projects/writing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/projects/writing/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/series/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/series/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/series/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/series/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/series/pytendo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/series/pytendo/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/series/pytendo/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/series/pytendo/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/apple/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/apple/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/apple/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/apple/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/c/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/c/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/c/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/c/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/games/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/games/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/games/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/games/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/meta/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/meta/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/meta/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/meta/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/nes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/nes/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/nes/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/nes/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/python/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/python/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/python/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/python/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/quest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/quest/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/quest/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/quest/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/unity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/unity/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/unity/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/unity/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_cdaa30a7507ab61d2449eccd00a007f4.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_cdaa30a7507ab61d2449eccd00a007f4.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_cdaa30a7507ab61d2449eccd00a007f4.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_cdaa30a7507ab61d2449eccd00a007f4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_e653852fe4feba18bb5b6c0cd70175ed.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_e653852fe4feba18bb5b6c0cd70175ed.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/introduction/assets/sass/_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/themes/introduction/assets/sass/_base.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/introduction/i18n/en.toml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/introduction/i18n/en.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,46 +39,65 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ozMZ73NzxuQEMZmYzhzNIuKw1F" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.vendoring.notification.had.been.shown&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/richardpianka/Code/pianka-io/website/hugo/content/en/blog/pytendo-nes-emulator&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.vendoring.notification.had.been.shown": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/richardpianka/Code/pianka-io/website/hugo/content/en/blog/pytendo-6502-cpu",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/en/blog/pytendo-6502-cpu" />
       <recent name="$PROJECT_DIR$/content/en/blog/pytendo-nes-emulator" />
       <recent name="$PROJECT_DIR$/content/en/blog/foobar" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/content" />
-      <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/en/blog/pytendo-6502-cpu" />
       <recent name="$PROJECT_DIR$/content/en/blog/unity-meta-quest-apple-silicon" />
       <recent name="$PROJECT_DIR$/content/en/blog/unity-quest-apple-silicon" />
       <recent name="$PROJECT_DIR$/content/en/blog/vulkan-installer" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-d297c17c1fbd-85c80fddc9a6-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-243.23654.119" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-GO-243.23654.119" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="executable:terraform" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:postcss" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

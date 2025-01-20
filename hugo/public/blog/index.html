@@ -162,28 +162,20 @@ Blog - Rick Pianka
     <h2 class="title is-2 top-pad">Latest Post</h2>
     
     <div class="summary">
-        Jan 3, 2025
+        Jan 19, 2025
         <h3 class="title is-3 strong-post-title">
-            <a href="http://pianka.io/blog/pytendo-nes-emulator/">
-                pytendo: a Python NES emulator written in C
+            <a href="http://pianka.io/blog/pytendo-6502-cpu/">
+                pytendo: 6502 CPU progress
             </a>
         </h3>
         <div class="markdown">
-            <p>My holiday break project this year was to build an NES emulator in Python, sort of. Somewhere
-between recently beating the <a href="https://nandgame.com/">NandGame</a>, feeling nostalgia after seeing the
-<a href="https://github.com/PWhiddy/PokemonRedExperiments">Pokemon Red Experiments</a>, and getting a new graphics
-card, I felt like building an NES emulator in Python that I could try to train an AI to play.</p>
-<p>So, I humbly introduce my latest project&hellip;</p>
-<img class="flat" src="https://pianka.io/blog/pytendo-nes-emulator/pytendo.png" alt="pytendo" title="pytendo">
-
-<h2 id="the-design" class="anchor-link"><a href="#the-design">The Design</a></h2>
-<p>I started by building a multithreaded prototype in pure Python, using <a href="https://www.pygame.org/">pygame</a> to draw frames
-–  it was unsurprisingly slow.  I ported it to <a href="https://cython.org/">Cython</a>, but it spent all its time thrashing
-on the <a href="https://wiki.python.org/moin/GlobalInterpreterLock">Python GIL</a>, the main thread starving the emulator
-threads.  I refactored that implementation to be single-threaded as clock synchronization across threads is complex,
-but the performance was simply not good enough.</p>
-            
-            <a href="http://pianka.io/blog/pytendo-nes-emulator/">Read more</a>
+            <p>This is a quick update, my pytendo CPU implementation hit a small milestone: it&rsquo;s passing the
+<a href="http://nickmass.com/images/nestest.nes">nestest ROM</a> from <a href="https://www.nesdev.org/wiki/Emulator_tests">NesDev&rsquo;s emulator tests</a>!
+I&rsquo;ve implemented 149 of the <a href="https://www.nesdev.org/wiki/Instruction_reference">151 official instructions</a> in the
+<a href="https://www.wikiwand.com/en/articles/MOS_Technology_6502">MOS 6502</a> (sans <code>brk</code> and <code>cli</code>), and none of the <a href="https://www.nesdev.org/wiki/CPU_unofficial_opcodes">unofficial
+ones</a>. I also ported it to run on my Windows 11 machine 😊</p>
+<img class="flat" src="https://pianka.io/blog/pytendo-6502-cpu/nestest.png" alt="pytendo" title="pytendo">
+<p>There are some small updates to the debugger, but I&rsquo;ll save those for later – that&rsquo;s all for now.</p>
             
         </div>
     </div>
@@ -202,6 +194,18 @@ but the performance was simply not good enough.</p>
     
     
 
+    
+    
+    
+    
+    <li class="post-item">
+        
+        <span>Jan 19, 2025</span> -
+        
+        <span><a href="http://pianka.io/blog/pytendo-6502-cpu/">pytendo: 6502 CPU progress</a></span>
+    </li>
+    
+    
     
     
     
