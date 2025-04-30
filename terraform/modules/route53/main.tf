@@ -29,3 +29,18 @@ resource "aws_route53_record" "naked" {
     evaluate_target_health = true
   }
 }
+
+resource "aws_route53_record" "warnet" {
+  allow_overwrite = true
+  name            = "war.pianka.io"
+  ttl             = 172800
+  type            = "NS"
+  zone_id         = aws_route53_zone.pianka_io.zone_id
+
+  records = [
+    "ns-1259.awsdns-29.org.",
+    "ns-833.awsdns-40.net.",
+    "ns-341.awsdns-42.com.",
+    "ns-1880.awsdns-43.co.uk."
+  ]
+}
