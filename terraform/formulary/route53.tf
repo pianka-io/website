@@ -59,3 +59,11 @@ resource "aws_route53_record" "allen_formulary_a" {
   ttl     = 300
   records = ["32.218.94.46"]
 }
+
+resource "aws_route53_record" "certbot" {
+  zone_id = aws_route53_zone.formulary_co.zone_id
+  name    = "_acme-challenge.allen.formulary.co."
+  type    = "TXT"
+  ttl     = "300"
+  records = ["B1uJnth_6qG3UpFzYyQHn_MCKfbmxRrNdFhPIJdT470"]
+}
