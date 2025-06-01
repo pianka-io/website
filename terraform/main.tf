@@ -37,7 +37,3 @@ module "dns" {
   domain_name                         = module.distribution.domain_name
   zone_id                             = module.distribution.zone_id
 }
-
-module "formulary" {
-  source = "./formulary"
-}
